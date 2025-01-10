@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Página da Conta do Usuário</title>
+  <link rel="stylesheet" href="Styles/db.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>Bem-vindo, <span id="username">Nome do Usuário</span>!</h1>
+    </header>
+    <main>
+      <section class="profile">
+        <h2>Foto de Perfil</h2>
+        <div class="profile-image">
+          <img id="selected-photo" src="./images/perfil/1.jpeg" alt="Foto de perfil">
+        </div>
+        <h3>Escolha sua foto de perfil</h3>
+        <div class="photo-options">
+          <!-- Opções de fotos -->
+          <img class="photo-option" src="./images/perfil/1.jpeg" alt="Foto 1" onclick="updatePhoto('./images/perfil/1.jpg')">
+          <img class="photo-option" src="./images/perfil/2.jpeg" alt="Foto 2" onclick="updatePhoto('./images/perfil/2.jpeg')">
+          <img class="photo-option" src="./images/perfil/3.jpeg" alt="Foto 3" onclick="updatePhoto('./images/perfil/3.jpeg')">
+          <img class="photo-option" src="./images/perfil/4.jpeg" alt="Foto 4" onclick="updatePhoto('./images/perfil/4.jpeg')">
+          <img class="photo-option" src="./images/perfil/5.jpeg" alt="Foto 5" onclick="updatePhoto('./images/perfil/5.jpeg')">
+          <img class="photo-option" src="./images/perfil/6.jpeg" alt="Foto 6" onclick="updatePhoto('./images/perfil/6.jpeg')">
+          <img class="photo-option" src="./images/perfil/7.jpeg" alt="Foto 7" onclick="updatePhoto('./images/perfil/7.jpeg')">
+          <img class="photo-option" src="./images/perfil/8.jpeg" alt="Foto 8" onclick="updatePhoto('./images/perfil/8.jpeg')">
+          <img class="photo-option" src="./images/perfil/9.jpeg" alt="Foto 9" onclick="updatePhoto('./images/perfil/9.jpeg')">
+          <img class="photo-option" src="./images/perfil/10.jpeg" alt="Foto 10" onclick="updatePhoto('./images/perfil/10.jpg')">
+        </div>
+      </section>
+      <section class="purchase-info">
+        <h2>Informações de Compras</h2>
+        <p>Você já realizou <span id="purchase-count">5</span> compras no site.</p>
+      </section>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,22 @@
+ show-menu
+
+ .category-circle img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.team-menber img{
+    width: 225px;
+    height: 225px;
+    border: 7px solid #fff;
+    border-radius: 9999px;
+}
+
+
+<div class="row">
+            <div class="col-lg-8 mx-auto text-center">
+            <p class="large text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut eaque, laboriosam veritatis, quos non quis ad perspiciatis, totam corporis ea, alias ut unde.</p>
+            </div>
+        </div>
